@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+  <g transform="translate(16,16) rotate(-45) translate(-16,-16)">
+    <!-- Fuselage -->
+    <path d="M16 5 C16 5 18 8 18 14 L18 22 C18 24 16 26 16 26 C16 26 14 24 14 22 L14 14 C14 8 16 5 16 5Z" fill="white"/>
+    <!-- Wings -->
+    <path d="M14 15 L7 18 L7 17 L14 13Z" fill="white" opacity="0.9"/>
+    <path d="M18 15 L25 18 L25 17 L18 13Z" fill="white" opacity="0.9"/>
+    <!-- Tail -->
+    <path d="M14 22 L11 24 L11 23 L14 21Z" fill="white" opacity="0.7"/>
+    <path d="M18 22 L21 24 L21 23 L18 21Z" fill="white" opacity="0.7"/>
+  </g>
+</svg>
